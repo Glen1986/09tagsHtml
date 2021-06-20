@@ -1,0 +1,62 @@
+body,
+header,
+nav,
+h1,
+h2,
+h3,
+section,
+main,
+details,
+p,
+figure,
+img,
+footer {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #96b0b0;
+}
+p {
+  font-size: 12px;
+}
+header {
+  max-width: 100%;
+  /*  position: relative;*/
+  background-color: #d6eb00;
+  padding: 2% 2% 0% 2%;
+}
+header > p {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+header > section > nav {
+  background-color: red;
+  display: inline;
+  border: solid 1px #ddd;
+}
+div.parrafo {
+  justify-content: center;
+}
+nav {
+  max-width: 30%;
+}
+/*nav #left {
+  position: relative;
+  display: inline;
+}*/
+header > #rigth {
+  padding-left: auto;
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 62px;
+}
+section {
+}
+figure {
+}
+footer {
+}
